@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  border: 1px;
+  width: 100%;
+  height: 100%;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.App .card1, .App .card2, .App .card3 {
+  width:100%;
+  background-color: lightgray;
+  margin: 10px 10px;
+}
+
+
+.card1 .card2 .card3 Info{
+  width: 100%;
+}
+
+@media (min-width:768px){
+  .App{
+    flex-direction: row;
+  }
+}
+
