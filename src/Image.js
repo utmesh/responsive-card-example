@@ -1,11 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 
-import germany from './img/germany.jpg'
-import Bonn from './img/uni_bonn.jpg';
-import Pokhara from './img/pokhara_university.jpg';
-
-
 function Image(props) {
     return (
         <div>
@@ -16,8 +11,8 @@ function Image(props) {
 }
 
 Image.propTypes = {
-    imageSource: PropTypes.oneOf([germany, Bonn, Pokhara]),
-    name: PropTypes.oneOf(['germany', 'Bonn', 'Pokhara'])
+    imageSource: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired
 }
 
 export default Image

@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 
-const TitleStyle = {
+const titleStyle = {
     margin: 5
 
 }
@@ -10,10 +10,10 @@ const TitleStyle = {
 
 
 function Title(props) {
-    const TitleStyleWithColor = Object.assign({ color: props.titleColor }, TitleStyle)
+    const titleStyleWithColor = Object.assign({ color: props.titleColor }, titleStyle)
     return (
         <div>
-            <h3 style={TitleStyleWithColor}>
+            <h3 style={titleStyleWithColor}>
                 {props.title}
             </h3>
         </div>

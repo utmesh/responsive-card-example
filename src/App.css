@@ -15,16 +15,14 @@
   position: relative;
 }
 
-.App .card1, .App .card2, .App .card3 {
+.Card {
   width:100%;
   background-color: lightgray;
   margin: 10px 10px;
 }
 
 
-.card1 .card2 .card3 Info{
-  width: 100%;
-}
+
 
 @media (min-width:768px){
   .App{

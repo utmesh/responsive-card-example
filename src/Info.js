@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const info_style = {
+const infoStyle = {
     margin: 5,
     word_break: 'break_word'
 
@@ -9,13 +9,13 @@ const info_style = {
 }
 
 function Info(props) {
-    
     return (
-        <div>
-            <p style={info_style}>
-                {props.text}
-            </p>
-        </div>
+        <p
+            style=
+            {infoStyle}>
+            {props.text}
+        </p>
+
     )
 }
 
