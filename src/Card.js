@@ -1,11 +1,15 @@
 import React from 'react';
-import './App.css'
+import PropTypes from 'prop-types';
+import './Card.css'
 
-
-export default function Card(props){
-    return(
-        <div className = 'Card'>
-        {props.children}
+//TODO: validate children props
+export default function Card(props) {
+    return (
+        <div className='Card'>
+            {props.children}
         </div>
     )
+}
+Card.propTypes = {
+    children: PropTypes.elementType
 }

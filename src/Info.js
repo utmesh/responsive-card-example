@@ -1,18 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
-const infoStyle = {
-    margin: 5,
-    word_break: 'break_word'
-
-
-}
+import './Info.css'
+//TODO: convert inline style to classes/css
 
 function Info(props) {
     return (
-        <p
-            style=
-            {infoStyle}>
+        <p>
             {props.text}
         </p>
 
